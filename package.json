@@ -1,0 +1,27 @@
+{
+  "name": "rx-examples",
+  "version": "1.0.0",
+  "description": "Learning rx, nothing serious",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyorkin/rx-examples.git"
+  },
+  "author": "Vasiliy Yorkin <vasiliy.yorkin@gmail.com> (https://github.com/vyorkin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vyorkin/rx-examples/issues"
+  },
+  "homepage": "https://github.com/vyorkin/rx-examples#readme",
+  "dependencies": {
+    "rx": "4.0.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18"
+  }
+}

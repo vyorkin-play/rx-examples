@@ -1,10 +1,13 @@
 # Wat
+
 Learning [rx](https://github.com/ReactiveX/RxJS), nothing serious
+
+* [4.x](https://github.com/Reactive-Extensions/RxJS)
+* [5.x](https://github.com/ReactiveX/RxJS)
 
 # Resources
 
-* [ReactiveX/RxJS](https://github.com/ReactiveX/RxJS)
 * [RxJS lessons on egghead](https://egghead.io/technologies/rx)
-* [A series of interactive examples](http://reactivex.io/learnrx/)
+* [A series of interactive exercises](http://reactivex.io/learnrx/)
 * [rx-book](https://xgrommx.github.io/rx-book)
-* [post on habra in russian](http://habrahabr.ru/post/270093/)
+* [rx intro, habra (ru)](http://habrahabr.ru/post/270093/)

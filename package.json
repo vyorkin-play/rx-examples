@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vyorkin/rx-examples#readme",
   "dependencies": {
+    "ramda": "0.18.0",
     "rx": "4.0.7"
   },
   "devDependencies": {

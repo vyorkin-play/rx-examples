@@ -7,7 +7,7 @@ Learning [rx](https://github.com/ReactiveX/RxJS), nothing serious
 
 # Resources
 
-* [RxJS lessons on egghead](https://egghead.io/technologies/rx)
+* [RxJSKoans](https://github.com/Reactive-Extensions/RxJSKoans)
 * [A series of interactive exercises](http://reactivex.io/learnrx/)
 * [rx-book](https://xgrommx.github.io/rx-book)
 * [rx intro, habra (ru)](http://habrahabr.ru/post/270093/)

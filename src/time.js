@@ -1,6 +1,7 @@
 import Rx, { Observable, Subject, Scheduler } from 'rx';
 
 // 1
+/*
 {
   // source observable sequence or
   // the other observable sequence on timeout
@@ -33,6 +34,7 @@ import Rx, { Observable, Subject, Scheduler } from 'rx';
         (err) => console.log(err.message)
     );
 }
+*/
 
 // 2
 /*
@@ -42,3 +44,26 @@ import Rx, { Observable, Subject, Scheduler } from 'rx';
     .subscribe(::console.log);
 }
 */
+
+// 3
+{
+  const letters = [];
+  const subj = new Subject();
+  subj.debounce(50).subscribe(::console.log);
+
+  setTimeout(_ => {
+    subj.onNext('h');
+    subj.onNext('he');
+    subj.onNext('hel');
+    subj.onNext('hell');
+    subj.onNext('hello');
+  }, 100);
+
+  setTimeout(_ => {
+    subj.onNext('w');
+    subj.onNext('wo');
+    subj.onNext('wor');
+    subj.onNext('worl');
+    subj.onNext('world');
+  }, 200);
+}

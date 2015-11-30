@@ -3,6 +3,7 @@ import R from 'ramda';
 import { EventEmitter } from 'events';
 
 // 1
+// fromEvent
 {
   const e = new EventEmitter();
 
@@ -16,4 +17,9 @@ import { EventEmitter } from 'events';
   e.emit('sleep', { hours: 6 });
   e.emit('code', { hours: 12 });
   e.emit('sleep', { hours: 8 });
+}
+
+// 2
+// fromEventPattern
+{
 }

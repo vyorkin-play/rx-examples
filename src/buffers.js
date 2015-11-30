@@ -3,9 +3,9 @@ import R from 'ramda';
 
 // 1
 {
-  Observable.timer(0, 100)
-    .buffer(Observable.interval(100))
-    .take(3)
+  Observable.interval(100)              // each 1/10 sec
+    .buffer(Observable.interval(1000))  // buffer in seconds
+    .take(10)                           // first 10 secs only
     .subscribe(::console.log);
 }
 
@@ -26,3 +26,8 @@ import R from 'ramda';
     .subscribe(::console.log);
 }
 */
+
+// 4
+// bufferWithTime
+{
+}

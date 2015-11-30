@@ -6,7 +6,7 @@ import R from 'ramda';
 {
   let total = 0;
 
-  Observable.from(R.range(1, 5))
+  Observable.from(R.range(1, 5))    // the same as Observable.range(1, 5)
     .sum()                          // reduce with sum
     .subscribe((n) => total = n);   // set total = n = sum(i) <- (happens only once)
 
@@ -25,7 +25,7 @@ import R from 'ramda';
 
   Observable.from(R.range(1, 5))
     .tap(::all.push)
-    .filter(n => n % 2 == 0)
+    .filter(n => n % 2 === 0)
     .tap(::evens.push)
     .map(n => n * 2)
     .tap(::doubledEvens.push)

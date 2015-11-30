@@ -2,6 +2,7 @@ import Rx, { Observable, Subject } from 'rx';
 import R from 'ramda';
 
 // 1
+/*
 {
   let total = 0;
 
@@ -11,8 +12,10 @@ import R from 'ramda';
 
   console.log(total);
 }
+*/
 
 // 2
+/*
 {
   const all = [];
   const evens = [];
@@ -33,4 +36,14 @@ import R from 'ramda';
   console.log(evens);
   console.log(doubledEvens);
   console.log(lessThan);
+}
+*/
+
+// 3
+// merge
+{
+  const a = Observable.of(1, 2, 3);
+  const b = Observable.of(4, 5, 6);
+
+  a.merge(b).subscribe(::console.log);
 }
